@@ -1,0 +1,36 @@
+body {
+    background-color: #001524;
+    background-image: url("board.jpg");
+    margin: 0;
+    font-size: large;
+    font-weight: bold;
+    font-family: Cursed Timer;
+    background-size: cover;
+}
+@font-face {
+    font-family: Cursed Timer;
+    src: url("Cursed_Timer_ULiL/CursedTimerULiL.ttf");
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: Cursed Timer;
+}
+#home-tag{
+    color: white;
+}
+#guest-tag{
+    color: white;
+}
+#home-btn{
+    color: #cb4154;
+    font-size: 50px;
+    font-family: Cursed Timer;
+    background-color: black;
+}
+#guest-btn{
+    background-color: black;
+    color: #cb4154;
+    font-size: 50px;
+    font-family: Cursed Timer;
+}
